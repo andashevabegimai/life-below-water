@@ -76,16 +76,34 @@
         transform: translate(0);
     }
     25% {
-        transform: translate(100px) ;
+        transform: translate(100px, -100px) ;
     }
     50% {
-        transform: translate(100px);
+        transform: translate(150px, -150px);
     }
     65% {
-        transform: translate(200px) ;
+        transform: translate(200px, -200px) ;
     }
     75% {
-        transform: translate(200px);
+        transform: translate(300px, -300px);
+    }
+}
+
+@keyframes fishSwimToBottom {
+    0%, 100% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(100px, 100px) ;
+    }
+    50% {
+        transform: translate(150px, 150px);
+    }
+    65% {
+        transform: translate(200px, 200px) ;
+    }
+    75% {
+        transform: translate(300px, 300px);
     }
 }
 

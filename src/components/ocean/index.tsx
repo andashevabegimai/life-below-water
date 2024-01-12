@@ -8,6 +8,9 @@ import polarBear from "../../assets/polar-bear.png"
 import barramundi from "../../assets/barramundi.png"
 import clownFish from "../../assets/clown-fish.png"
 import velvetCrab from "../../assets/velvet-crab.png"
+import blueTang from "../../assets/blue-tang.png"
+import atlanticCod from "../../assets/atlantic-cod.png"
+import spinyDogFish from "../../assets/spiny-dogfish.png"
 
 
 import styles from './styles.module.scss'
@@ -25,6 +28,9 @@ export const Ocean = () => {
                 <OceanItem img={barramundi} title="barramundi" />
                 <OceanItem img={clownFish} title="clown fish" />
                 <OceanItem img={velvetCrab} title="velvet Crab" />
+                <OceanItem img={blueTang} title="blue tang" />
+                <OceanItem img={atlanticCod} title="atlantic Cod" />
+                <OceanItem img={spinyDogFish} title="spiny Dog Fish" />
 
             </div>
         </Wave>

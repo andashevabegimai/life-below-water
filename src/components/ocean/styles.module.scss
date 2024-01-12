@@ -47,9 +47,24 @@
             animation: 20s ease fishSwimFromLeftQuarter infinite;
         }
         &:nth-child(9){
-            top: 800px;
-            right: 20%;
+            top: 900px;
+            left: 20%;
             animation: 20s ease fishSwimToTop infinite;
+        }
+        &:nth-child(10){
+            top: 1000px;
+            left: 50%;
+            animation: 10s ease fishSwimFromLeftQuarter infinite;
+        }
+        &:nth-child(11){
+            top: 1100px;
+            left: 30%;
+            animation: 20s ease fishSwimFromRightQuarter infinite;
+        }
+        &:nth-child(12){
+            top: 1200px;
+            left: 10%;
+            animation: 5s ease fishSwimToBottom infinite;
         }
     }
 }
