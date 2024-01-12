@@ -14,6 +14,15 @@ import spinyDogFish from "../../assets/spiny-dogfish.png"
 import leafySea from "../../assets/leafy-sea-dragon.png"
 import mahiMahi from "../../assets/mahi-mahi.png"
 import flounder from "../../assets/flounder.png"
+import spottedBass from "../../assets/spotted-bass.png"
+import belugaWhale from "../../assets/beluga-whale.png"
+import barnacle from "../../assets/barnacle.png"
+import blueFish from "../../assets/blue-fish.png"
+import greatBarracuda from "../../assets/great-barracuda.png"
+import killerWhale from "../../assets/killer-whale.png"
+import queenSnapper from "../../assets/queen-snapper.png"
+import pelagicStingray from "../../assets/pelagic-stingray.png"
+import seaLion from "../../assets/sea-lion.png"
 
 
 import styles from './styles.module.scss'
@@ -37,6 +46,15 @@ export const Ocean = () => {
                 <OceanItem img={leafySea} title="leafy sea dragon" />
                 <OceanItem img={mahiMahi} title="mahi mahi" />
                 <OceanItem img={flounder} title="flounder" />
+                <OceanItem img={spottedBass} title="spotted bass" />
+                <OceanItem img={belugaWhale} title="beluga Whale" />
+                <OceanItem img={barnacle} title="barnacle" />
+                <OceanItem img={blueFish} title="blue Fish" />
+                <OceanItem img={greatBarracuda} title="great Barracuda" />
+                <OceanItem img={killerWhale} title="killer whale" />
+                <OceanItem img={queenSnapper} title="queen Snapper" />
+                <OceanItem img={pelagicStingray} title="pelagic Stingray" />
+                <OceanItem img={seaLion} title="sea lion" />
 
             </div>
         </Wave>

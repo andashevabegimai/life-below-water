@@ -12,16 +12,16 @@
         }
         &:nth-child(1){
             left: 30px;
-            animation: 10s ease fishSwimFromLeft infinite;
+            animation: 15s linear fishSwimFromLeft infinite;
         }
         &:nth-child(2){
             left: 50%;
-            animation: 20s ease fishSwimFromLeftQuarter infinite;
+            animation: 20s linear fishSwimFromLeftQuarter infinite;
         }
         &:nth-child(3){
             top: 300px;
             left: 30%;
-            animation: 15s ease fishSwimFromRightQuarter infinite;
+            animation: 15s linear fishSwimFromRightQuarter infinite;
         }
         &:nth-child(4){
             top: 280px;
@@ -30,7 +30,7 @@
         &:nth-child(5){
             top: 500px;
             left: 80px;
-            animation: 25s ease fishSwimFromRightQuarter infinite;
+            animation: 25s linear fishSwimFromRightQuarter infinite;
         }
         &:nth-child(6){
             top: 500px;
@@ -39,32 +39,32 @@
         &:nth-child(7){
             top: 800px;
             left: 30%;
-            animation: 40s ease fishSwimFromRightQuarter infinite;
+            animation: 40s linear fishSwimFromRightQuarter infinite;
         }
         &:nth-child(8){
             top: 800px;
             right: 20%;
-            animation: 20s ease fishSwimFromLeftQuarter infinite;
+            animation: 20s linear fishSwimFromLeftQuarter infinite;
         }
         &:nth-child(9){
             top: 900px;
             left: 20%;
-            animation: 20s ease fishSwimToTop infinite;
+            animation: 20s linear fishSwimToTop infinite;
         }
         &:nth-child(10){
             top: 1000px;
             left: 50%;
-            animation: 10s ease fishSwimFromLeftQuarter infinite;
+            animation: 20s linear fishSwimFromLeftQuarter infinite;
         }
         &:nth-child(11){
             top: 1100px;
             left: 30%;
-            animation: 20s ease fishSwimFromRightQuarter infinite;
+            animation: 20s linear fishSwimFromRightQuarter infinite;
         }
         &:nth-child(12){
             top: 1200px;
             left: 10%;
-            animation: 10s ease fishSwimToBottom infinite;
+            animation: 20s linear fishSwimToBottom infinite;
         }
         &:nth-child(13){
             top: 1250px;
@@ -73,12 +73,56 @@
         &:nth-child(14){
             top: 1350px;
             right: 40%;
-            animation: 17s ease fishSwimFromRight infinite;
+            animation: 17s linear fishSwimFromRight infinite;
         }
         &:nth-child(15){
             top: 1500px;
             left: 10%;
-            animation: 4s ease fishSwimFromRightQuarter infinite;
+            animation: 20s linear fishSwimFromRightQuarter infinite;
+        }
+        &:nth-child(16){
+            top: 1500px;
+            right: 10%;
+            animation: 20s linear fishSwimFromRight infinite;
+        }
+        &:nth-child(17){
+            top: 1550px;
+            right: 20%;
+            animation: 40s linear fishSwimFromRight infinite;
+        }
+        &:nth-child(18){
+            top: 1750px;
+            right: 10%;
+        }
+        &:nth-child(19){
+            top: 1750px;
+            left: 20%;
+            animation: 20s linear fishSwimFromRightQuarter infinite;
+        }
+        &:nth-child(20){
+            top: 1850px;
+            right: 10%;
+            animation: 30s linear fishSwimFromRight infinite;
+        }
+        &:nth-child(21){
+            top: 2000px;
+            left: 30%;
+            animation: 60s linear fishSwimFromRightQuarter infinite;
+        }
+        &:nth-child(22){
+            top: 2400px;
+            left: 10%;
+            animation: 10s linear fishSwimFromLeft infinite;
+        }
+        &:nth-child(23){
+            top: 2500px;
+            right: 20%;
+            animation: 40s linear fishSwimFromRight infinite;
+        }
+        &:nth-child(24){
+            top: 2600px;
+            left: 20%;
+            animation: 20s linear fishSwimFromRight infinite;
         }
     }
 }

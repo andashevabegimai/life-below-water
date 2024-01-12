@@ -2,6 +2,9 @@
     0%, 100% {
         transform: translateX(0) rotateY(180deg);
     }
+    10%{
+        transform: translateX(10vw) rotateY(0);
+    }
     25% {
         transform: translateX(20vw) rotateY(0);
     }
