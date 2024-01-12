@@ -64,7 +64,21 @@
         &:nth-child(12){
             top: 1200px;
             left: 10%;
-            animation: 5s ease fishSwimToBottom infinite;
+            animation: 10s ease fishSwimToBottom infinite;
+        }
+        &:nth-child(13){
+            top: 1250px;
+            right: 10%;
+        }
+        &:nth-child(14){
+            top: 1350px;
+            right: 40%;
+            animation: 17s ease fishSwimFromRight infinite;
+        }
+        &:nth-child(15){
+            top: 1500px;
+            left: 10%;
+            animation: 4s ease fishSwimFromRightQuarter infinite;
         }
     }
 }
