@@ -1,0 +1,51 @@
+.wave {
+    position: relative;
+    height: 1000vh;
+    width: 100vw;
+    background: rgb(72,146,247);
+    background: linear-gradient(180deg, rgba(72,146,247,1) 0%, rgba(76,168,236,1) 17%, rgba(0,0,0,1) 54%);
+}
+
+.wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 70%;
+    width: 33vw;
+    height: 140px;
+    background: rgb(72,146,247);
+    right: -5px;
+    top: -50px;
+    border-top: 15px solid white;
+  }
+.wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 80% ;
+    width: 36vw;
+    height: 100px;
+    background: rgb(72,146,247);
+    left: -30px;
+    top: -45px;
+    border-top: 15px solid white;
+
+}
+.center_wave::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius:  100% ;
+    width: 40vw;
+    height: 150px;
+    background: rgb(72,146,247);
+    left: 50%;
+    transform: translateX(-50%);
+    top: -60px;
+    border-top: 15px solid white;
+}
+
+.wave_content{
+    position: relative;
+    z-index: 10;
+}
